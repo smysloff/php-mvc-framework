@@ -16,7 +16,7 @@ error_reporting(E_ALL);
 // autoload
 require_once '../vendor/autoload.php';
 
-// .ENV
+// .env
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
 
