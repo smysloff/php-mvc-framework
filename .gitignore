@@ -1,0 +1,19 @@
+# IDE ignores
+.idea
+.vscode
+
+# Local files ignores
+/database
+.env
+
+# Composer ignores
+/vendor
+composer.phar
+composer.lock
+
+# Node.js files ignores
+/node_modules
+package-lock.json
+
+# OS ignores
+.DS_Store
